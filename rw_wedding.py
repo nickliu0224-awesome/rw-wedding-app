@@ -5,6 +5,13 @@ st.set_page_config(page_title="弘智 & 凡宸 婚禮邀請", page_icon="💍")
 
 # --- 1. 新人資訊與圖片 ---
 st.title("❤️ 弘智 & 凡宸 的婚禮派對")
+
+# ======= 在這裡加入音樂播放器 =======
+st.write("🎵 點擊播放我們的婚禮音樂")
+# 檔名必須跟 GitHub 上的一模一樣 (大小寫要相符)
+st.audio("How_Long_Will_I_Love_You.mp3", format="audio/mp3")
+# =================================
+
 st.write("我們結婚了！歡迎大家來參加我們的婚宴。")
 
 # 建議將你的 Google Drive 圖片設為公開後，使用其直連連結，或是放在 GitHub 上
