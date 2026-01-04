@@ -7,7 +7,7 @@ st.set_page_config(page_title="弘智 & 凡宸 婚禮邀請", page_icon="💍")
 st.title("❤️ 弘智 & 凡宸 的婚禮派對")
 
 # ======= 在這裡加入音樂播放器 =======
-st.write("🎵 開啟音樂更浪漫喔~")
+st.write("🎵 開啟音樂更浪漫喔～")
 # 加入 start_time=0 確保從頭播，autoplay=True 開啟自動播放
 st.audio("How_Long_Will_I_Love_You.mp3", format="audio/mp3", start_time=0, autoplay=True)
 # =================================
