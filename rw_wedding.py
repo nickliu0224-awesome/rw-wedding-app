@@ -103,9 +103,4 @@ else:
     # 底部按鈕也幫你置中整理一下
     c1, c2, c3 = st.columns([1, 2, 1])
     with c2:
-        st.link_button("📍 Google 地圖導航", "https://www.google.com/maps/search/?api=1&query=宜蘭縣五結鄉公園二路15號", use_container_width=True)
-    
-    st.write("")
-    if st.button("🔄 重新觀看開場"):
-        st.session_state['entered'] = False
-        st.rerun()
+        st.link_button("📍 Google 地圖導航至飯店", "https://www.google.com/maps/search/?api=1&query=宜蘭縣五結鄉公園二路15號", use_container_width=True)
