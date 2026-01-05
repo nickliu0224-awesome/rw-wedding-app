@@ -104,3 +104,6 @@ else:
     c1, c2, c3 = st.columns([1, 2, 1])
     with c2:
         st.link_button("📍 Google 地圖導航至飯店", "https://www.google.com/maps/search/?api=1&query=宜蘭縣五結鄉公園二路15號", use_container_width=True)
+
+    # 音樂自動播放
+    st.audio("How_Long_Will_I_Love_You.mp3", format="audio/mp3", start_time=0, autoplay=True)
