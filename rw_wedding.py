@@ -87,7 +87,7 @@ else:
         "王凡宸": "新娘本人"
     }
 
-    user_input = st.text_input("請輸入您的姓名或綽號 (例如：王大明)")
+    user_input = st.text_input("請輸入您的姓名或綽號 (例如：大谷翔平)")
 
     if user_input:
         result = seat_data.get(user_input.strip())
