@@ -112,7 +112,7 @@ else:
         "王凡宸": "新娘本人"
     }
 
-    user_input = st.text_input("請輸入您的姓名或綽號 (例如：大周)")
+    user_input = st.text_input("請輸入您的姓名或綽號 (例如：大谷翔平)")
 
     if user_input:
         # 這裡會去除使用者輸入前後的空白，避免輸入錯誤
